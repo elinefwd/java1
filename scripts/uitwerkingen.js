@@ -1,4 +1,5 @@
-/*/
+
+
 //opdracht 1a:
 console.log ("De afdeling Sales heeft " + departments.sales.numberOfEmployees + " " + "medewerkers")
 
@@ -14,9 +15,11 @@ console.log("Sales is een uitdagende afdeling om te werken als Verkoopmanager." 
 //const userInput = prompt('Hoi! Hoe heet je?');
 //console.log(userInput);
 
+
 //opdracht 2a:
 const userInput = prompt("Over welke afdeling wil je meer informatie? Kies uit: [marketing / sales / customer-service]")
 console.log(userInput);
+
 
 //opdracht 2b:
 switch (userInput) {
@@ -32,7 +35,7 @@ switch (userInput) {
     default:
         console.error("ongeldige keuze")
 }
-/*/
+
 
 //opdracht 3:
 const jobChoice = prompt("Je koos marketing. Over welke functie wil je meer weten?" +
